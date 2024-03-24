@@ -1,0 +1,93 @@
+header {
+    background-color: #7e8e94;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative; /* Tambahkan posisi relatif */
+    z-index: 1; /* Atur z-index untuk memastikan header berada di atas container */
+}
+
+.container {
+    position: fixed; /* Tambahkan posisi fixed */
+    top: 0px; /* Atur jarak antara container dan bagian atas viewport sesuai dengan tinggi header */
+    left: 0; /* Tetapkan container di sebelah kiri */
+    width: 100%; /* Set lebar container menjadi 100% */
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-image: url('image/background1.jpg');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.menu-item {
+    display: inline-block; /* Membuat tombol-tombol sejajar */
+    margin-right: 20px; /* Memberikan jarak antar tombol */
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000; /* Warna latar belakang tombol */
+    padding: 10px 15px; /* Ukuran padding tombol */
+    border-radius: 5px; /* Bentuk tepi tombol */
+}
+
+.menu-item.search-icon {
+    cursor: pointer;
+}
+
+.menu-item.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.inmenu {
+    display: flex;
+    align-items: center; /* Memposisikan tombol secara vertikal di tengah */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+.search {
+    margin-right: auto; /* Tombol search akan ditempatkan sejauh mungkin ke kanan */
+}
+
+.menu-item a,
+.menu-item button {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.menu-item.search-icon {
+    cursor: pointer;
+}
+
+.menu-item.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+ 
+
+.product {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
